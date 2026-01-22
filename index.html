@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SOHE Djotoalé GODWIN/</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <img src="assets/Chapeau_Etudiant.png" alt="avatar" class="avatar" />
+        <div>
+          <h1>SOHE Djotoalé Godwin</h1>
+          <p>Étudiant en fin de parcours spécialité Administration des Systèmes & Réseaux</p>
+        </div>
+      </div>
+      <button id="nav-toggle" aria-label="Menu">☰</button>
+      <nav id="site-nav" class="nav-hidden">
+        <a href="#about">À propos</a>
+        <a href="#skills">Compétences</a>
+        <a href="#projects">Projets</a>
+        <a href="#parcours">Parcours</a>
+        <a href="#certs">Certifs</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="theme-toggle" aria-label="Changer de thème">🌙</button>
+    </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <h2 style="text-align: center;">Ingénierie Systèmes • Réseaux • Sécurité</h2>
+                    <p class="cta">
+            <a class="btn" href="#projects">Voir mes projets</a>
+          </p>
+        </div>
+      <!--<div class="hero-visual">
+          <img src="assets/avatar.svg" alt="photo" class="avatar-large" />
+        </div>-->
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h3 class="section-title"><i class="fas fa-user"></i> À propos</h3>
+      <p>Étudiant en administration des systèmes et réseaux, je suis passionné par la gestion et la sécurisation des infrastructures informatiques. Curieux et méthodique, j’aime relever des défis techniques et transformer mes apprentissages en solutions concrètes. Mes projets académiques m’ont permis de développer des compétences en configuration réseau, virtualisation et automatisation par scripts. Je cherche à mettre mes connaissances en pratique dans des environnements professionnels, tout en continuant à apprendre et à évoluer dans le domaine de la cybersécurité et du cloud.</p>
+    </section>
+
+    <section id="skills" class="container skills">
+      <h3 class="section-title"><i class="fas fa-tools"></i> Compétences</h3>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <i class="fas fa-server"></i>
+          <h4>Systèmes</h4>
+          <p>Linux (Debian/Ubuntu), Windows Server, Ubuntu Server</p>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-network-wired"></i>
+          <h4>Réseaux</h4>
+          <p>VLAN, routage statique/dynamique, NAT, DNS, DHCP, IPv4/IPv6</p>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-cubes"></i>
+          <h4>Virtualisation & Conteneurs</h4>
+          <p>VMware, VirtualBox, Docker</p>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-robot"></i>
+          <h4>Scripting & Automatisation</h4>
+          <p>Bash, Powershell, Python, Ansible</p>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-shield-alt"></i>
+          <h4>Supervision & Sécurité</h4>
+          <p>Zabbix, Nagios, base de hardening, pare-feu, ACL </p>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-tools"></i>
+          <h4>Outils</h4>
+          <p>Git, SSH, LDAP/AD, Cisco Pasket Tracer, eNSP</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="container projects">
+      <h3 class="section-title"><i class="fas fa-briefcase"></i> Projets sélectionnés</h3>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h4>Lab VLAN & Routage (TP)</h4>
+          <p>Conception d'un réseau multi-VLAN avec routage inter-VLAN, serveurs Linux et Windows, et firewall basique. </p>
+        </div>
+        <div class="project-card">
+          <h4>Serveur de partage de fichiers</h4>
+          <p>ce système permet de partager des fichiers entres utilisateurs afin d'alléger les ressources des machines</p>
+        </div>
+        <div class="project-card">
+          <h4>Supervision Zabbix</h4>
+          <p>Mise en place d'une supervision Zabbix pour surveiller CPU, mémoire, espace disque et services critiques; alertes par e-mail et dashboard personnalisé.</p>
+        </div>
+        <div class="project-card">
+          <h4>mise en place d'un serveur Active Directory</h4>
+          <p>Gestion des utilisateurs, des mots de passes </p>
+        </div>
+        <div class="project-card">
+          <h4> configuration de pare-feu</h4>
+          <p> en vue de la sécurisation des infrastructures du danger exteérieur, il a été mis en place un pare-feu qui filtre les entrées et les sorties de l'infrastructure </p>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="certs" class="container certs">
+      <h3 class="section-title"><i class="fas fa-certificate"></i> Formations & Certifications</h3>
+      <ul>
+        <li>Diplôme: Formation professionnelle en Administration Systèmes & Réseaux (en cours )</li>
+        <li>Certifs proposées: secnumacademy, introduction to cybersecurity(Cisco), Microsoft learn(en cours)</li>
+      </ul>
+    </section>
+
+    <section id="parcours" class="container parcours">
+      <h3 class="section-title"><i class="fas fa-graduation-cap"></i> Parcours</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">2025 — 2026</div>
+          <div class="timeline-content">
+            <h4>Formation Administration Systèmes & Réseaux et réalisations des projets personnels</h4>
+            <p>IAI-TOGO</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">Juillet-Septembre 2025</div>
+          <div class="timeline-content">
+            <h4>Stage académique en entreprise</h4>
+            
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2023-2025</div>
+          <div class="timeline-content">
+            <h4>Tonc commun  en informatique</h4>
+            <p>IAI-TOGO</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2021-2023</div>
+          <div class="timeline-content">
+            <h4>Secondaire</h4>
+            <p>Collège Protestant d'Aného</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h3 class="section-title"><i class="fas fa-envelope"></i> Contact</h3>
+      <p style="text-align: center;">Envie d'échanger ou de voir mes sources ?</p>
+      <div class="contact-info">
+        <p><i class="fas fa-envelope"></i> Email: <button id="copy-email" class="link-like" title="Copier l'email">godwinsohe07@gmail.com</button></p>
+        <p><i class="fab fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/91330947">+228 91330947</a></p>
+        <p><i class="fas fa-phone"></i> Téléphone: +228 91330947</p>
+      </div>
+      <div class="download-cv">
+        <i class="fas fa-download"></i>
+        <a href="assets/CV_SOHE_GODWIN.pdf" download>Télécharger le CV</a>
+      </div>
+      <p>GitHub: <a href="#">https://github.com/Thibaut2005-git</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© SOHE Djotoalé Godwin | Administration Systèmes & Réseaux. Tout droits réservés</small>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
